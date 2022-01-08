@@ -1,0 +1,11 @@
+# This file will prevent Git from adding files that match the following
+# patterns to the repo. If you need to add a file anyway, use 'git add -f [file]'
+
+# Text editor swap files
+*.swp
+*.swo
+*~
+
+# Compiled binary and java bytecode files
+*.o
+*.class

@@ -1,0 +1,63 @@
+micha@LAPTOP-N4MJJ5JA MINGW64 ~/Documents/DSCI 789/michael_kogan-dsci789/pa3 (master)
+$ java GradientDescent mnist lenet5 xavier 500 softmax 50 0.2 0.0005 0.95 0 0 0 1 0.1
+Log level set to INFO
+[INFO   ] inputDropoutRate: 0.0, hiddenDropoutRate: 0.0
+[INFO   ] reading image filename './datasets/train-images-idx3-ubyte' and label filename: './datasets/train-labels-idx1-ubyte
+[INFO   ] read 60000 MNIST images.
+[INFO   ] reading image filename './datasets/t10k-images-idx3-ubyte' and label filename: './datasets/t10k-labels-idx1-ubyte
+[INFO   ] read 10000 MNIST images.
+[INFO   ] Using an SOFTMAX loss function.
+[INFO   ] Starting minibatch gradient descent!
+[INFO   ] minibatch (500), mnist, softmax, lr: 5.0E-4, mu:0.95
+[INFO   ] calculating initial error and accuracy
+[INFO   ] bestError error accuracy testingError testingAccuracy
+Validation 0.0% done!
+Validation 27.5% done!
+Validation 55.0% done!
+Validation 82.5% done!
+Validation 0.0% done!
+ITERATION  138290.6393070222 138290.6393070222   13.20333 23044.557839600526  13.41000
+Epoch 0.0% done!
+Epoch 27.5% done!
+Epoch 55.0% done!
+Epoch 82.5% done!
+[INFO   ] Learning rate: 4.875E-4
+Validation 0.0% done!
+Validation 27.5% done!
+Validation 55.0% done!
+Validation 82.5% done!
+Validation 0.0% done!
+  2935.7513082508303 2935.7513082508303   98.46333 507.04509967672186  98.33000
+Epoch 0.0% done!
+Epoch 27.5% done!
+Epoch 55.0% done!
+Epoch 82.5% done!
+[INFO   ] Learning rate: 4.753125E-4
+Validation 0.0% done!
+Validation 27.5% done!
+Validation 55.0% done!
+Validation 82.5% done!
+Validation 0.0% done!
+  1568.5785707757009 1568.5785707757009   99.18667 389.87993195390936  98.69000
+Epoch 0.0% done!
+Epoch 27.5% done!
+Epoch 55.0% done!
+Epoch 82.5% done!
+[INFO   ] Learning rate: 4.634296875E-4
+Validation 0.0% done!
+Validation 27.5% done!
+Validation 55.0% done!
+Validation 82.5% done!
+Validation 0.0% done!
+  1190.455345861443 1190.455345861443   99.36833 390.8944554864216  98.74000
+Epoch 0.0% done!
+Epoch 27.5% done!
+Epoch 55.0% done!
+Epoch 82.5% done!
+[INFO   ] Learning rate: 4.5184394531249994E-4
+Validation 0.0% done!
+Validation 27.5% done!
+Validation 55.0% done!
+Validation 82.5% done!
+Validation 0.0% done!
+  735.7279271099964 735.7279271099964   99.63833 307.9351453735861  99.08000

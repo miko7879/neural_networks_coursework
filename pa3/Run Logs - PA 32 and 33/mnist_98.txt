@@ -1,0 +1,146 @@
+java GradientDescent mnist lenet5 xavier 200 svm 100 -0.15 0.00025 0.5 0 0 0 0 0 | tee mnist_try_4.txt
+Log level set to INFO
+[INFO   ] inputDropoutRate: 0.0, hiddenDropoutRate: 0.0
+[INFO   ] reading image filename './datasets/train-images-idx3-ubyte' and label filename: './datasets/train-labels-idx1-ubyte
+[INFO   ] read 60000 MNIST images.
+[INFO   ] reading image filename './datasets/t10k-images-idx3-ubyte' and label filename: './datasets/t10k-labels-idx1-ubyte
+[INFO   ] read 10000 MNIST images.
+[INFO   ] Using an SVM loss function.
+[INFO   ] Starting minibatch gradient descent!
+[INFO   ] minibatch (200), mnist, svm, lr: 2.5E-4, mu:0.5
+[INFO   ] calculating initial error and accuracy
+[INFO   ] bestError error accuracy testingError testingAccuracy
+Validation 0.0% done!
+Validation 11.0% done!
+Validation 22.0% done!
+Validation 33.0% done!
+Validation 44.0% done!
+Validation 55.0% done!
+Validation 66.0% done!
+Validation 77.0% done!
+Validation 88.0% done!
+Validation 99.0% done!
+Validation 0.0% done!
+Validation 66.0% done!
+ITERATION  138155.21157150736 138155.21157150736    9.95333 23025.78834009142  10.35000
+Epoch 0.0% done!
+Epoch 11.0% done!
+Epoch 22.0% done!
+Epoch 33.0% done!
+Epoch 44.0% done!
+Epoch 55.0% done!
+Epoch 66.0% done!
+Epoch 77.0% done!
+Epoch 88.0% done!
+Epoch 99.0% done!
+[INFO   ] Learning rate: 2.4375E-4
+Validation 0.0% done!
+Validation 11.0% done!
+Validation 22.0% done!
+Validation 33.0% done!
+Validation 44.0% done!
+Validation 55.0% done!
+Validation 66.0% done!
+Validation 77.0% done!
+Validation 88.0% done!
+Validation 99.0% done!
+Validation 0.0% done!
+Validation 66.0% done!
+  12802.87046677156 12802.87046677156   93.65500 2030.7509619126988  94.06000
+Epoch 0.0% done!
+Epoch 11.0% done!
+Epoch 22.0% done!
+Epoch 33.0% done!
+Epoch 44.0% done!
+Epoch 55.0% done!
+Epoch 66.0% done!
+Epoch 77.0% done!
+Epoch 88.0% done!
+Epoch 99.0% done!
+[INFO   ] Learning rate: 2.3765625E-4
+Validation 0.0% done!
+Validation 11.0% done!
+Validation 22.0% done!
+Validation 33.0% done!
+Validation 44.0% done!
+Validation 55.0% done!
+Validation 66.0% done!
+Validation 77.0% done!
+Validation 88.0% done!
+Validation 99.0% done!
+Validation 0.0% done!
+Validation 66.0% done!
+  5662.428053558485 5662.428053558485   97.13833 901.82200437632  97.32000
+Epoch 0.0% done!
+Epoch 11.0% done!
+Epoch 22.0% done!
+Epoch 33.0% done!
+Epoch 44.0% done!
+Epoch 55.0% done!
+Epoch 66.0% done!
+Epoch 77.0% done!
+Epoch 88.0% done!
+Epoch 99.0% done!
+[INFO   ] Learning rate: 2.3171484375E-4
+Validation 0.0% done!
+Validation 11.0% done!
+Validation 22.0% done!
+Validation 33.0% done!
+Validation 44.0% done!
+Validation 55.0% done!
+Validation 66.0% done!
+Validation 77.0% done!
+Validation 88.0% done!
+Validation 99.0% done!
+Validation 0.0% done!
+Validation 66.0% done!
+  4079.882874022804 4079.882874022804   97.91667 681.2398502104925  97.93000
+Epoch 0.0% done!
+Epoch 11.0% done!
+Epoch 22.0% done!
+Epoch 33.0% done!
+Epoch 44.0% done!
+Epoch 55.0% done!
+Epoch 66.0% done!
+Epoch 77.0% done!
+Epoch 88.0% done!
+Epoch 99.0% done!
+[INFO   ] Learning rate: 2.2592197265624997E-4
+Validation 0.0% done!
+Validation 11.0% done!
+Validation 22.0% done!
+Validation 33.0% done!
+Validation 44.0% done!
+Validation 55.0% done!
+Validation 66.0% done!
+Validation 77.0% done!
+Validation 88.0% done!
+Validation 99.0% done!
+Validation 0.0% done!
+Validation 66.0% done!
+  3563.775562818572 3563.775562818572   98.19000 650.5390101168822  98.06000
+Epoch 0.0% done!
+Epoch 11.0% done!
+Epoch 22.0% done!
+Epoch 33.0% done!
+Epoch 44.0% done!
+Epoch 55.0% done!
+Epoch 66.0% done!
+Epoch 77.0% done!
+Epoch 88.0% done!
+Epoch 99.0% done!
+[INFO   ] Learning rate: 2.202739233398437E-4
+Validation 0.0% done!
+Validation 11.0% done!
+Validation 22.0% done!
+Validation 33.0% done!
+Validation 44.0% done!
+Validation 55.0% done!
+Validation 66.0% done!
+Validation 77.0% done!
+Validation 88.0% done!
+Validation 99.0% done!
+Validation 0.0% done!
+Validation 66.0% done!
+  2834.8514355787097 2834.8514355787097   98.57167 565.950737357293  98.23000
+
